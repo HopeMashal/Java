@@ -19,7 +19,8 @@ package Notes; //You need to put folder name like this
 public class lesson_1 {
   public static void main(String[] args){ //MAIN method is so important to start the code
     //To print something use --> { System.out.println("Your_Msg"); }
-    System.out.println("Welcome to Java!!"); 
+    System.out.println("Welcome to Java!!");
+    //* The output is Welcome to Java!!
   }
 }
 

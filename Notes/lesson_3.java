@@ -34,10 +34,10 @@ public class lesson_3 {
 //? integer --> int 
 //? short integer --> short int (OR short)
 //? long integer --> long int (OR long)
-//? boolean value (true OR false) --> bool
+//? boolean value (true OR false) --> boolean
 //? floating point number --> float
 //? double precision floating point number --> double
 //? long double precision floating point number --> long double
-//? string (sentence or word or char) --> string
+//? string (sentence or word or char) --> String
 
 /*_______________________________*/

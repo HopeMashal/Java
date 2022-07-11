@@ -28,8 +28,16 @@ public class lesson_3 {
 
 /*_______________________________*/
 
-//? integer --> int
-//? floater --> float
+//! Java Data Types
+
+//? character --> char
+//? integer --> int 
+//? short integer --> short int (OR short)
+//? long integer --> long int (OR long)
+//? boolean value (true OR false) --> bool
+//? floating point number --> float
+//? double precision floating point number --> double
+//? long double precision floating point number --> long double
 //? string (sentence or word or char) --> string
 
 /*_______________________________*/

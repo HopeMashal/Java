@@ -22,6 +22,18 @@ public class lesson_3 {
     System.out.printf("Sum is %d%n", sum);
     //? %n --> new line
     //? %d --> integer value
+    //? You can use { %d } with { System.out.printf() }
+
+    String firstName, lastName;
+    float salary, netSalary;
+    System.out.print("Enter your first name: ");
+    firstName = input.next();
+    System.out.print("Enter your last name: ");
+    lastName = input.next();
+    System.out.print("Enter your salary: ");
+    salary = input.nextFloat();
+    netSalary = salary - (salary * 0.17f);
+    System.out.printf("Your name is %s %s, and your net salary is %.2f",firstName,lastName,netSalary);
   }
   
 }

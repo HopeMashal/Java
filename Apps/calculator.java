@@ -25,7 +25,28 @@ public class calculator {
     System.out.print("Enter the operator: ");
     int operator = input.nextInt(); // read operator from user
 
-    
+    switch (operator){
+      case 1:
+        System.out.printf("The equation is: %.2f + %.2f = %.2f%n", number1, number2, number1+number2);
+        break;
+      case 2:
+        System.out.printf("The equation is: %.2f - %.2f = %.2f%n", number1, number2, number1-number2);
+        break;
+      case 3:
+        System.out.printf("The equation is: %.2f / %.2f = %.2f%n", number1, number2, number1/number2);
+        break;
+      case 4:
+        System.out.printf("The equation is: %.2f * %.2f = %.2f%n", number1, number2, number1*number2);
+        break;
+      case 5:
+        System.out.printf("The equation is: %.2f %% %.2f = %.2f%n", number1, number2, number1%number2);
+        break;
+      case 6:
+        System.out.printf("The equation is: %.2f ^ %.2f = %.2f%n", number1, number2, Math.pow(number1, number2));
+        break;
+      default:
+        System.out.println("Incorrect operator, please enter (1 -> + , 2 -> - , 3 -> / , 4 -> * , 5 -> % , 6 -> ^)");
+    }
 
   }
 }

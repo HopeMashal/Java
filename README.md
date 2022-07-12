@@ -12,5 +12,5 @@ Java Basic Notes and Some Apps
 ## Apps
 
   * Calculator
-    * Use If/else if/else statements [GO](https://github.com/HopeMashal/Java/blob/master/Apps/calculator.java)
-    * Use Switch statement [GO](https://github.com/HopeMashal/Java/blob/master/Apps/easy_calculator.java)
+    * Use If/else if/else statements [GO](https://github.com/HopeMashal/Java/blob/master/Apps/easy_calculator.java)
+    * Use Switch statement [GO](https://github.com/HopeMashal/Java/blob/master/Apps/calculator.java)

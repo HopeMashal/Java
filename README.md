@@ -7,6 +7,7 @@ Java Basic Notes and Some Apps
   * Displaying Program Output [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_2.java)
   * Input & Variables [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_3.java)
   * Arithmetic Operators [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_4.java)
+  * If statement [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_5.java)
 
 
 ## Apps

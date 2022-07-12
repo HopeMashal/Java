@@ -23,6 +23,31 @@ public class lesson_4 {
 
     System.out.println((float)i/j); //* The output is 4.5
     System.out.println(i/(float)j); //* The output is 4.5
+
+    i++;
+    j++;
+    System.out.println(i); //* The output is 10
+    System.out.println(j);  //* The output is 3
+
+    i--;
+    j--;
+    System.out.println(i); //* The output is 9
+    System.out.println(j);  //* The output is 2
+
+    System.out.println(i);  //* The output is 9
+    System.out.println(i++); //* The output is 9
+    System.out.println(i);  //* The output is 10
+    System.out.println(++i);  //* The output is 11
+
+    System.out.println(j);  //* The output is 2
+    System.out.println(j--); //* The output is 2
+    System.out.println(j);  //* The output is 1
+    System.out.println(--j);  //* The output is 0
+
+    i+=5;
+    System.out.println(i);  //* The output is 16
+
+    System.out.println(++i * --j * 2);  //* The output is -34 --> (16+1)*(0-1)*2=17*-1*2=-34
   }
   
 }
@@ -52,5 +77,28 @@ public class lesson_4 {
 //? Integer --> If all operands are integer
 //? Float --> If at least one operand is float and there is no double
 //? Double --> If at least one operand is double
+
+/*_______________________________*/
+
+//! Increment and Decrement Operators
+
+//? Increment operator: increment variable by 1
+//* Pre-increment: ++variable
+//* Post-increment: variable++
+
+//? Decrement operator: decrement variable by 1
+//* Pre-decrement: --variable
+//* Post-decrement: variable--
+
+/*_______________________________*/
+
+//! Special assignment statements
+
+//? += , -= , *= , /= , %=
+// TODO: x+=5 --> x=x+5
+// TODO: x-=5 --> x=x-5
+// TODO: x*=5 --> x=x*5
+// TODO: x/=5 --> x=x/5
+// TODO: x%=5 --> x=x%5
 
 /*_______________________________*/

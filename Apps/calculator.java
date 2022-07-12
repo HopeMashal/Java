@@ -1,4 +1,4 @@
-// In this app, I used switch and if/else if/else statement
+// In this app, I used Switch statement
 
 package Apps;
 import java.util.Scanner;

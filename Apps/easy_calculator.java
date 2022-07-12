@@ -25,7 +25,7 @@ public class easy_calculator {
     } else if (operator.equals("*")){
       System.out.printf("The equation is: %.2f * %.2f = %.2f%n", number1, number2, number1*number2);
     } else if (operator.equals("%")){
-      System.out.printf("The equation is: %.2f % %.2f = %.2f%n", number1, number2, number1%number2);
+      System.out.printf("The equation is: %.2f %% %.2f = %.2f%n", number1, number2, number1%number2);
     } else if (operator.equals("^")){
       System.out.printf("The equation is: %.2f ^ %.2f = %.2f%n", number1, number2, Math.pow(number1, number2));
     } else {

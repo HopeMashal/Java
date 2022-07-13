@@ -36,6 +36,20 @@ public class lesson_5 {
       System.out.printf("%d is negative number! %n",num);
     }
 
+    int number1;
+    System.out.print("Enter number to test: ");
+    number1 = input.nextInt();
+    if (number1 >=0){
+      if (number1 % 2 == 0){
+        System.out.printf("%d is positive number! %n",number1);
+        System.out.printf("%d is even number! %n",number1);
+      } else {
+        System.out.printf("%d is positive number! %n",number1);
+        System.out.printf("%d is odd number! %n",number1);
+      }
+    } else {
+      System.out.printf("%d is negative number! %n",number1);
+    }
 
   }
   

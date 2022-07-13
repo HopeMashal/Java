@@ -64,6 +64,21 @@ public class lesson_5 {
       System.out.println("Number 2 is greater than Number 1!!");
     }
 
+    int mark;
+    System.out.print("Enter Your Mark: ");
+    mark = input.nextInt();
+
+    if (mark >= 90){
+      System.out.println("You Got A :)");
+    } else if(mark >= 80 && mark < 90){
+      System.out.println("You Got B :)");
+    } else if(mark >= 70 && mark < 80){
+      System.out.println("You Got C :)");
+    } else if(mark >= 60 && mark < 70){
+      System.out.println("You Got D :)");
+    } else {
+      System.out.println("You Got F :(");
+    }
 
   }
   
@@ -86,5 +101,12 @@ public class lesson_5 {
 //? <= --> Less than or Equal to
 //? > --> Greater than
 //? >= --? Greater than or Equal to
+
+/*_______________________________*/
+
+//! Combining more than one condition
+
+//? && --> AND Gate (A.B=X)
+//? || --> OR Gate (A+B=X)
 
 /*_______________________________*/

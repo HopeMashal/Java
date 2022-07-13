@@ -2,10 +2,21 @@
 //! If statement!!
 
 package Notes;
+import java.util.Scanner;
 
 public class lesson_5 {
   public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    int marks;
+    System.out.print("Enter Your Marks: ");
+    marks = input.nextInt();
 
+    if (marks >= 60){
+      System.out.println("Congratulations :), you passed!!");
+      System.out.println("Go to the next level!");
+    } else {
+      System.out.println("Ohh no :(, you failed!!");
+    }
 
   }
   

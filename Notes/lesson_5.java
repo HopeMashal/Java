@@ -30,3 +30,14 @@ public class lesson_5 {
 //? 2- Repetition control statements
 
 /*_______________________________*/
+
+//! Relational Expression and Relational Operators 
+
+//? == --> Equal to
+//? != --> Not Equal to
+//? < --> Less than
+//? <= --> Less than or Equal to
+//? > --> Greater than
+//? >= --? Greater than or Equal to
+
+/*_______________________________*/

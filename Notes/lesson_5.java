@@ -51,6 +51,20 @@ public class lesson_5 {
       System.out.printf("%d is negative number! %n",number1);
     }
 
+    int num1,num2;
+    System.out.print("Enter Number 1: ");
+    num1 = input.nextInt();
+    System.out.print("Enter Number 2: ");
+    num2 = input.nextInt();
+    if (num1 == num2){
+      System.out.println("Both are equal!!");
+    } else if (num1>num2){
+      System.out.println("Number 1 is greater than Number 2!!");
+    } else {
+      System.out.println("Number 2 is greater than Number 1!!");
+    }
+
+
   }
   
 }

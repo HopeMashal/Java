@@ -18,6 +18,15 @@ public class lesson_5 {
       System.out.println("Ohh no :(, you failed!!");
     }
 
+    int number;
+    System.out.print("Enter number to test: ");
+    number = input.nextInt();
+    if (number % 2 == 0){
+      System.out.printf("%d is even number!",number);
+    } else {
+      System.out.printf("%d is odd number!",number);
+    }
+
   }
   
 }

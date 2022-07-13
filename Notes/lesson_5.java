@@ -22,10 +22,20 @@ public class lesson_5 {
     System.out.print("Enter number to test: ");
     number = input.nextInt();
     if (number % 2 == 0){
-      System.out.printf("%d is even number!",number);
+      System.out.printf("%d is even number! %n",number);
     } else {
-      System.out.printf("%d is odd number!",number);
+      System.out.printf("%d is odd number! %n",number);
     }
+
+    int num;
+    System.out.print("Enter number to test: ");
+    num = input.nextInt();
+    if (num > 0){
+      System.out.printf("%d is positive number! %n",num);
+    } else {
+      System.out.printf("%d is negative number! %n",num);
+    }
+
 
   }
   

@@ -68,7 +68,7 @@ public class lesson_5 {
     System.out.print("Enter Your Mark: ");
     mark = input.nextInt();
 
-    if (mark >= 90){
+    if (mark >= 90 && mark <= 100){
       System.out.println("You Got A :)");
     } else if(mark >= 80 && mark < 90){
       System.out.println("You Got B :)");
@@ -76,8 +76,10 @@ public class lesson_5 {
       System.out.println("You Got C :)");
     } else if(mark >= 60 && mark < 70){
       System.out.println("You Got D :)");
-    } else {
+    } else if(mark >= 0 && mark < 60) {
       System.out.println("You Got F :(");
+    } else {
+      System.out.println("Invalid mark, enter number between 0 and 100");
     }
 
   }

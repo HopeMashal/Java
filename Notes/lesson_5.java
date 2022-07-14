@@ -112,3 +112,10 @@ public class lesson_5 {
 //? || --> OR Gate (A+B=X)
 
 /*_______________________________*/
+
+//! Use If statement:
+
+//? If the selection involves a range of values --> if(score>=60 && score<70)
+//? If the selector's type is double or float --> if (salary == 5000.25)
+
+/*_______________________________*/

@@ -10,7 +10,7 @@ public class lesson_6 {
     System.out.print("Enter Your Grade: ");
     char grade = input.next().charAt(0);
 
-    switch (grade){
+    switch (Character.toUpperCase(grade)){
       case 'A':
         System.out.println("Excellent");
         break;

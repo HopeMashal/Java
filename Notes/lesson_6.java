@@ -64,7 +64,20 @@ public class lesson_6 {
         System.out.println("Invalid Value!!");
     }
 
-    
+    System.out.print("Enter any character: ");
+    char myChar=input.next().charAt(0);
+
+    switch (Character.toLowerCase(myChar)){
+      case 'a':
+      case 'i':
+      case 'e':
+      case 'u':
+      case 'o':
+        System.out.printf("%c is vowel!!",myChar);
+        break;
+      default:
+        System.out.printf("%c is normal character!!", myChar);
+    }
 
   }
 }

@@ -29,6 +29,41 @@ public class lesson_6 {
       default:
         System.out.println("Invalid Grade!!!");
     }
+
+    int choice;
+    System.out.println("The Choices are:");
+    System.out.println("1. Add two numbers");
+    System.out.println("2. Sub two numbers");
+    System.out.println("3. Get the square of a number");
+    System.out.print("Enter Your Choice: ");
+    choice = input.nextInt();
+
+    int num1,num2;
+
+    switch (choice){
+      case 1:
+        System.out.print("Enter the first number: ");
+        num1 = input.nextInt();
+        System.out.print("Enter the second number: ");
+        num2 = input.nextInt();
+        System.out.printf("The equation is %d + %d = %d %n",num1,num2,num1+num2);
+        break;
+      case 2:
+        System.out.print("Enter the first number: ");
+        num1 = input.nextInt();
+        System.out.print("Enter the second number: ");
+        num2 = input.nextInt();
+        System.out.printf("The equation is %d - %d = %d %n",num1,num2,num1-num2);
+        break;
+      case 3:
+        System.out.print("Enter the number: ");
+        num1 = input.nextInt();
+        System.out.printf("The equation is %d ^ 2 = %.0f %n",num1,Math.pow(num1, 2));
+        break;
+      default:
+        System.out.println("Invalid Value!!");
+    }
+
     
 
   }

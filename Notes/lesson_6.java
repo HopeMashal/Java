@@ -10,3 +10,21 @@ public class lesson_6 {
 }
 
 /*_______________________________*/
+
+//! The switch Statement:
+
+/* 
+  switch (Expression){ //? Expression data type is integer
+    case constant 1: //?constant 1 is integer
+      Action Statements;
+      break;
+    case constant 2: //?constant 2 is integer
+      Action Statements;
+      break;
+    ...
+    default:
+      Action Statements;
+  }
+ */
+
+/*_______________________________*/

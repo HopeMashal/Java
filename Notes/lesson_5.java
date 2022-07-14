@@ -90,8 +90,8 @@ public class lesson_5 {
 
 //! The control statements are categorized in almost two groups:
 
-//? 1- Selection control statements --> like If Statement
-//? 2- Repetition control statements
+//? 1- Selection control statements --> like If Statement & Switch Statement
+//? 2- Repetition control statements --> like While Loop & For Loop
 
 /*_______________________________*/
 

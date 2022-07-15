@@ -10,6 +10,7 @@ Java Basic Notes and Some Apps
   * If statement [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_5.java)
   * Switch statement [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_6.java)
   * While Loop [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_7.java)
+    * Flag Controlled While Loop [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_8.java)
 
 
 ## Apps

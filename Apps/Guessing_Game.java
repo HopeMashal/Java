@@ -1,5 +1,5 @@
 /*_______________________________*/
-//! Guessing Game!!
+//! Guessing Game (Word)!!
 
 package Apps;
 import java.util.Scanner;

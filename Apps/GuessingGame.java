@@ -12,15 +12,14 @@ public class GuessingGame {
     rand = (int)(Math.random()*100);
     boolean stillplaying = true;
     while (stillplaying){
-      System.out.println("Guess a number between 0 to 100:");
+      System.out.print("Guess a number between 0 to 100: ");
       guess = input.nextInt();
       if (guess > rand){
         System.out.println("Guess too large!!");
       } else if (guess < rand){
         System.out.println("Guess too small!!");
       } else {
-        System.out.println("Great!!!!!");
-        System.out.println("YOU WIN");
+        System.out.println("Great!!!!!");System.out.println("YOU WIN :)");
         stillplaying =false;
       }
     }

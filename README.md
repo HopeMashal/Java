@@ -18,3 +18,4 @@ Java Basic Notes and Some Apps
   * Calculator
     * Use If/else if/else statements [GO](https://github.com/HopeMashal/Java/blob/master/Apps/easy_calculator.java)
     * Use Switch statement [GO](https://github.com/HopeMashal/Java/blob/master/Apps/calculator.java)
+  * Guessing Game [GO](https://github.com/HopeMashal/Java/blob/master/Apps/Guessing_Game.java)

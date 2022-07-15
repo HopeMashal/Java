@@ -15,6 +15,7 @@ public class Guessing_Game {
 
     while (!guess.equals(secret_word) && !out_of_guesses){
       if (guess_count < guess_limit){
+        System.out.printf("You have %d guesses %n",guess_limit-guess_count);
         System.out.print("Enter guess: ");
         guess = input.next();
         guess_count += 1;

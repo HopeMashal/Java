@@ -16,6 +16,19 @@ public class lesson_10 {
     }
     System.out.println("The average grades is "+ (float)sum/6);
 
+    int num,sumEven=0,sumOdd=0;
+    for(int i=1;i<=10;i++){
+      System.out.print("Enter the number "+ i +" : ");
+      num=input.nextInt();
+      if(num%2==0){
+        sumEven+=num;
+      } else{
+        sumOdd+=num;
+      }
+    }
+    System.out.println("The sum of Even Numbers is "+sumEven);
+    System.out.println("The sum of Odd Numbers is "+sumOdd);
+
   }
 }
 

@@ -31,7 +31,7 @@ public class lesson_10 {
 
     //! Factorial Number
     int number,factorial=1;
-    System.out.print("Enter a positive number: ");
+    System.out.print("Enter a positive number to get its factorial: ");
     number = input.nextInt();
     if(number<0){
       System.out.println("Enter Positive Number Only!!!");
@@ -40,7 +40,22 @@ public class lesson_10 {
         factorial *=i;
       }
     }
-    System.out.print("Factorial = "+factorial);
+    System.out.println("Factorial = "+factorial);
+
+    //! Print star
+    for(int i=1;i<=5;i++){
+      for(int j=1;j<=i;j++){
+        System.out.print("*");
+      }
+      System.out.print("\n");
+    }
+    /* The output is:
+        *
+        **
+        ***
+        ****
+        *****
+     */
 
   }
 }

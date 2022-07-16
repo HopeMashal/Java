@@ -14,3 +14,27 @@ public class lesson_9 {
 }
 
 /*_______________________________*/
+
+//! Do While Loop:
+
+/* 
+  do{
+    this;
+    and this;
+    ...
+  } while(this condition is true)
+*/
+
+/*_______________________________*/
+
+//! While Loop
+
+/* 
+  while(this condition is true){
+    this;
+    and this;
+    ...
+  } 
+*/
+
+/*_______________________________*/

@@ -12,6 +12,7 @@ Java Basic Notes and Some Apps
   * While Loop [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_7.java)
     * Flag Controlled While Loop [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_8.java)
   * Do While Loop [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_9.java)
+  * For Loop [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_10.java)
 
 
 ## Apps

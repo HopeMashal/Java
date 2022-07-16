@@ -8,6 +8,13 @@ public class lesson_10 {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
+    int grade=0,sum=0;
+    for(int i=1;i<=6;i++){
+      System.out.print("Enter Grade: ");
+      grade = input.nextInt();
+      sum += grade;
+    }
+    System.out.println("The average grades is "+ (float)sum/6);
 
   }
 }

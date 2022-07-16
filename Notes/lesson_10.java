@@ -29,6 +29,19 @@ public class lesson_10 {
     System.out.println("The sum of Even Numbers is "+sumEven);
     System.out.println("The sum of Odd Numbers is "+sumOdd);
 
+    //! Factorial Number
+    int number,factorial=1;
+    System.out.print("Enter a positive number: ");
+    number = input.nextInt();
+    if(number<0){
+      System.out.println("Enter Positive Number Only!!!");
+    } else {
+      for(int i =1; i<=number;i++){
+        factorial *=i;
+      }
+    }
+    System.out.print("Factorial = "+factorial);
+
   }
 }
 

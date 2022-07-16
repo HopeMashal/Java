@@ -10,7 +10,7 @@ public class lesson_10 {
 
     int grade=0,sum=0;
     for(int i=1;i<=6;i++){
-      System.out.print("Enter Grade: ");
+      System.out.print("Enter Grade for student no " + i + " : ");
       grade = input.nextInt();
       sum += grade;
     }

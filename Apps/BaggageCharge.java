@@ -10,56 +10,71 @@ public class BaggageCharge {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.print("Please Enter Number of Passengers: ");
-    int numberOfPassengers= input.nextInt();
+    System.out.print("Please Enter Number of Groups: ");
+    int numberOfGroups= input.nextInt();
 
-    for(int i=1;i<=numberOfPassengers;i++){
+    for(int j=1;j<=numberOfGroups;j++){
 
-      System.out.println("\n _____________________________________");
-      System.out.println("|    Please Enter Passenger's Class   |");
-      System.out.println("|       Enter F for First class       |");
-      System.out.println("|       Enter B for Business Class    |");
-      System.out.println("|       Enter E for Economy Class     |");
-      System.out.println("|_____________________________________|\n");
-
-      System.out.print("Please Enter Passenger's "+i+" Class: ");
-      char passClass = input.next().charAt(0);
+      System.out.print("Please Enter Number of Passengers for Group Number "+j+" : ");
+      int numberOfPassengers= input.nextInt();
   
-      System.out.print("Enter the Weight of Passenger's "+i+" Bag: ");
-      double bagWeight = input.nextDouble();
+      for(int i=1;i<=numberOfPassengers;){
   
-      double excessWeight = 0;
-      double charge = 0;
+        System.out.println("\n _____________________________________");
+        System.out.println("|    Please Enter Passenger's Class   |");
+        System.out.println("|       Enter F for First class       |");
+        System.out.println("|       Enter B for Business Class    |");
+        System.out.println("|       Enter E for Economy Class     |");
+        System.out.println("|_____________________________________|\n");
+  
+        System.out.print("Please Enter Passenger's "+i+" Class: ");
+        char passClass = input.next().charAt(0);
 
-      switch(Character.toUpperCase(passClass)){
-        case 'F':
-          if(bagWeight>30){
-            excessWeight = bagWeight - 30;
-            charge = excessWeight * 10;
+        char pClass = Character.toUpperCase(passClass);
+
+        if(pClass=='F' || pClass=='B' || pClass=='E'){
+
+          System.out.print("Enter the Weight of Passenger's "+i+" Bag: ");
+          double bagWeight = input.nextDouble();
+      
+          double excessWeight = 0;
+          double charge = 0;
+    
+          switch(Character.toUpperCase(passClass)){
+            case 'F':
+              if(bagWeight>30){
+                excessWeight = bagWeight - 30;
+                charge = excessWeight * 10;
+              }
+              break;
+            case 'B':
+              if(bagWeight>25){
+                excessWeight = bagWeight - 25;
+                charge = excessWeight * 10;
+              }
+              break;
+            case 'E':
+              if(bagWeight>20){
+                excessWeight = bagWeight - 20;
+                charge = excessWeight * 10;
+              }
+              break;
           }
-          break;
-        case 'B':
-          if(bagWeight>25){
-            excessWeight = bagWeight - 25;
-            charge = excessWeight * 10;
+          if(charge==0){
+            System.out.println("\nPassenger "+i+" in group no. "+j+" has no excess baggage");
+          } else {
+            System.out.println("\nPassenger No. "+i+" in group no. "+j+" has excess baggage");
+            System.out.printf("Excess weight equals %.2f Kg %n",excessWeight);
+            System.out.printf("He/She has to pay extra charge equal  %.2f TRY %n%n",charge);
           }
-          break;
-        case 'E':
-          if(bagWeight>20){
-            excessWeight = bagWeight - 20;
-            charge = excessWeight * 10;
-          }
-          break;
-        default :
-          System.out.println("Entered Invalid Class!! Please Enter (F/B/E)!!!");
-          break;
-      }
-      if(charge==0){
-        System.out.println("Passenger "+i+" has no excess baggage");
-      } else {
-        System.out.println("\nPassenger No. "+i+" has excess baggage");
-        System.out.println("Excess weight equals "+excessWeight);
-        System.out.println("He/She has to pay extra charge equal  "+charge+"\n");
+
+        } else {
+          System.out.println("\nEntered Invalid Class!! Please Enter (F/B/E)!!!");
+          continue;
+        }
+
+        i++;
+  
       }
 
     }

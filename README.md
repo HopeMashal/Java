@@ -14,6 +14,7 @@ Java Basic Notes and Some Apps
   * Do While Loop [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_9.java)
   * For Loop [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_10.java)
   * Break and Continue Statements [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_11.java)
+  * Introduction of Methods [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_12.java)
 
 
 ## Apps
@@ -24,3 +25,4 @@ Java Basic Notes and Some Apps
   * Guessing Game 
     * Word [GO](https://github.com/HopeMashal/Java/blob/master/Apps/Guessing_Game.java)
     * Number [GO](https://github.com/HopeMashal/Java/blob/master/Apps/GuessingGame.java)
+  * Baggage Charge for the Passenger [GO](https://github.com/HopeMashal/Java/blob/master/Apps/BaggageCharge.java)

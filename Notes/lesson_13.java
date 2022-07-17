@@ -2,12 +2,20 @@
 //! Methods with Parameters!!
 
 package Notes;
-import java.util.Scanner;
 
 public class lesson_13 {
   public static void main(String[] args){
-    Scanner input = new Scanner(System.in);
-
+    System.out.println("Start of program");
+    drawLine();
+    System.out.println("Welcome to the First Lecture in Functions!!");
+    drawLine();
+    System.out.println("End of program");
+  }
+  public static void drawLine(){
+    for(int i=0;i<10;i++){
+      System.out.print("*");
+    }
+    System.out.println();
   }
   
 }

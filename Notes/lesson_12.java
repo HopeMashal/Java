@@ -13,3 +13,11 @@ public class lesson_12 {
 }
 
 /*_______________________________*/
+
+//! Functions - Methods
+
+//? A function: is a self-contained block of statements that perform a specific
+
+//? Using a function is something like hiring a person to do specific job for you
+
+/*_______________________________*/

@@ -16,6 +16,7 @@ Java Basic Notes and Some Apps
   * Break and Continue Statements [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_11.java)
   * Introduction of Methods [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_12.java)
     * Methods With Parameters [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_13.java)
+    * Methods and Variable Scope [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_14.java)
 
 
 ## Apps

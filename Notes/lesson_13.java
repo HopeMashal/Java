@@ -40,6 +40,7 @@ public class lesson_13 {
     }
     System.out.println();
   }
+  
   public static int sum (int i, int j){
     int result=i+j;
     return  result;

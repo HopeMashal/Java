@@ -45,11 +45,13 @@ public class lesson_14 {
 //! Scope of a variable
 
 //? Scope is the context within a program in which a variable is valid and can be used
-//? 1- Local variable: declared within a function (or block)
+//? 1- Local variable: declared within a function (or block {...})
 //* can be accessible only within the function or from declaration to the end of the block
 //* within nested blocks if no variable with same name exists
 
 //? 2- Global variable: declared outside of every function definition 
 //* can be accessed from any function that has no local variables with the same name. In case the function has a local variable with the same name as the global variable.
+//* بتم تعريفة داخل الكلاس وخارج الفانكشن وبتقدر تستخدمه باي فانكشن موجود داخل هاد الكلاس ويتم تعريفه كالتالي
+//* static int variable-name; --> (int/float/..)
 
 /*_______________________________*/

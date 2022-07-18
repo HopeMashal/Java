@@ -57,6 +57,29 @@ public class lesson_15 {
 //? The signature of a method consists of the following:
 //* Method name
 //* Formal Parameter list
-//? Note that the method type is not part of its signature
+
+//!! Note that the method type is not part of its signature
+//!! Note that the method type and modifiers are not part of the overloading rules
+
+/*_______________________________*/
+
+//! The following methods are incorrectly overloaded; the compiler generates an error:
+//? Ex1- The following methods are incorrectly overloaded because they have the same method name and same formal parameter lists:
+ /* 
+ * public void methodABC(int x,double y);
+ * public int methodABC(int x,double y);
+ */
+
+//? Ex2- Changing the names of the formal parameters, doesn't allow overloading of the previous counter-example:
+ /* 
+ * public void methodABC(int x,double y);
+ * public int methodABC(int num1,double num2);
+ */
+
+//? Ex3- Adding the modifire static doesn't allow overloading of the previous example:
+/* 
+ * public static void methodABC(int x,double y);
+ * public int methodABC(int num1,double num2);
+ */
 
 /*_______________________________*/

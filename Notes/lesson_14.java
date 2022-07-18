@@ -5,6 +5,7 @@ package Notes;
 import java.util.Scanner;;
 
 public class lesson_14 {
+  static int globalVar=100;
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
@@ -22,6 +23,11 @@ public class lesson_14 {
     double Avg =avg(num1, num2, num3);
     display(Sum, Avg);
 
+    //! Local & Global Variable
+    int globalVar=200;
+    System.out.println("The local variable is "+globalVar); //* The output is The local variable is 200
+    display1(); //* The output is The global variable is 100
+
   }
 
   public static int sum(int n1,int n2, int n3){
@@ -37,6 +43,10 @@ public class lesson_14 {
   public static void display(int s, double a){
     System.out.println("The sum of the 3 numbers is "+s);
     System.out.printf("The average of the 3 numbers is %.2f %n",a);
+  }
+
+  public static void display1(){
+    System.out.println("The global variable is "+globalVar);
   }
 }
 

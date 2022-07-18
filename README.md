@@ -18,6 +18,7 @@ Java Basic Notes and Some Apps
     * Methods With Parameters [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_13.java)
     * Methods and Variable Scope [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_14.java)
     * Methods Overloading [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_15.java)
+  * One Dimensional Arrays [GO](https://github.com/HopeMashal/Java/blob/master/Notes/lesson_16.java)
 
 
 ## Apps

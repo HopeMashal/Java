@@ -2,7 +2,6 @@
 //! Hangman Game!!
 
 package Apps;
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Hangman_Game {

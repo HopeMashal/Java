@@ -2,7 +2,7 @@
 //! Methods and Variable Scope!!
 
 package Notes;
-import java.util.Scanner;;
+import java.util.Scanner;
 
 public class lesson_14 {
   static int globalVar=100;

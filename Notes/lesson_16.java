@@ -2,11 +2,21 @@
 //! One Dimensional Arrays!!
 
 package Notes;
-import java.util.Scanner;
+import java.util.*;
 
 public class lesson_16 {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
+    System.out.print("Enter the number of employees: ");
+    int noEmp = input.nextInt();
+
+    double[] salaries = new double[noEmp];
+
+    for(int i=0;i<noEmp;i++){
+      System.out.print("Enter the salary of employee no. "+(i+1)+" : ");
+      salaries[i] = input.nextDouble();
+    }
+    System.out.println(Arrays.toString(salaries));
 
 
   }

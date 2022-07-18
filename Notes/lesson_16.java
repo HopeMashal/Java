@@ -13,13 +13,35 @@ public class lesson_16 {
     double[] salaries = new double[noEmp];
 
     for(int i=0;i<noEmp;i++){
-      System.out.print("Enter the salary of employee no. "+(i+1)+" : ");
+      System.out.print("Enter the salary for employee No. "+(i+1)+" : ");
       salaries[i] = input.nextDouble();
     }
     System.out.println(Arrays.toString(salaries));
 
+    double sum=0,avg=0;
+    for(int i=0;i<salaries.length;i++){
+      sum += salaries[i];
+    }
+    avg = sum/noEmp;
+
+    System.out.println("The sum of salaries is "+sum);
+    System.out.println("The average of salaries is "+avg);
+
     double[] sales ={12.5,232.4,21.12};
     System.out.println(Arrays.toString(sales));
+
+    int[] numbers = new int[noEmp];
+    int sumPos=0,count=0;
+    for(int i=0;i<noEmp;i++){
+      System.out.print("Enter the number No. "+(i+1)+" : ");
+      numbers[i] = input.nextInt();
+      if(numbers[i]>0){
+        sumPos+=numbers[i];
+        count++;
+      }
+    }
+    System.out.println("The sum of "+noEmp+" numbers is "+sumPos);
+    System.out.println("The average of "+noEmp+" numbers is "+(sumPos/count));
 
 
   }

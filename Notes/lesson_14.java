@@ -27,6 +27,7 @@ public class lesson_14 {
     int globalVar=200;
     System.out.println("The local variable is "+globalVar); //* The output is The local variable is 200
     display1(); //* The output is The global variable is 100
+    System.out.println(lesson_14.globalVar); //* The output is 100 --> (class_name.global_variable)
 
   }
 

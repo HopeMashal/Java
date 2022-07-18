@@ -33,3 +33,5 @@ Java Basic Notes and Some Apps
     * Number [GO](https://github.com/HopeMashal/Java/blob/master/Apps/GuessingGame.java)
   * Baggage Charge for the Passenger [GO](https://github.com/HopeMashal/Java/blob/master/Apps/BaggageCharge.java)
   * Hangman Game [GO](https://github.com/HopeMashal/Java/blob/master/Apps/Hangman_Game.java)
+  * Translator [GO](https://github.com/HopeMashal/Java/blob/master/Apps/Translator.java)
+  * Strong Password Generator [GO](https://github.com/HopeMashal/Java/blob/master/Apps/Strong_Password_Generator.java)

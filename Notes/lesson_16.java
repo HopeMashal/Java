@@ -18,7 +18,8 @@ public class lesson_16 {
 //! Array declaration
 
 //? dataType[] arrayName = new dataType [intExp]
-//? Ex- String[] Words = new String[]{'..','..',...etc}
+//? Ex- String[] Words = new String[]{'..','..',...etc};
+//? Ex- int[] num = new int[5]; --> num[0],..,num[4] (index from 0 to intExp-1)
 
 //* In java, an array is an object that must be instantiated using the new operation
 //* arrayName is the reference variable

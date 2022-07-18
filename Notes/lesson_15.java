@@ -8,7 +8,29 @@ public class lesson_15 {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
+    int a =10, b=20, c=30;
+    char x='g', y='A';
 
+    System.out.println(larger(a, b)); //* The output is 20
+    System.out.println(larger(a, b, c)); //* The output is 30
+    System.out.println(larger(x, y)); //* The output is g
+
+  }
+
+  public static int larger(int n1,int n2){
+    if(n1>n2) return n1;
+    else return n2;
+  }
+
+  public static int larger(int n1,int n2,int n3){
+    if(n1>n2 && n1>n3) return n1;
+    else if(n2>n1 && n2>n3) return n2;
+    else return n3;
+  }
+
+  public static char larger(char c1,char c2){
+    if(c1>c2) return c1;
+    else return c2;
   }
   
 }

@@ -16,7 +16,7 @@ public class lesson_17 {
     System.out.print("Enter the id to search for: ");
     double searchId=input.nextDouble();
     double searchRes= search(ids, searchId);
-    if(searchRes>=0) System.out.println("The index of "+searchId+" is "+search(ids, searchId));
+    if(searchRes>=0) System.out.println("The index of "+searchId+" is "+searchRes);
     else System.out.println("The item "+searchId+" isn't found");
 
   }

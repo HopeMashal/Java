@@ -18,6 +18,9 @@ public class lesson_16 {
     }
     System.out.println(Arrays.toString(salaries));
 
+    double[] sales ={12.5,232.4,21.12};
+    System.out.println(Arrays.toString(sales));
+
 
   }
   
@@ -36,5 +39,15 @@ public class lesson_16 {
 //* dataType is the data type of the array; which is the same type of all elements in the array
 //* intExp is any expression that evaluates to a positive int type.
 //* intExp represents the size of the array: this is the number of elements in the array
+
+/*_______________________________*/
+
+//! Array Initialization
+
+//? When instantiating an array object, the initial values depend on the array type:
+
+//* For numeric types (int/float/..) the elements take the value zero by default
+//* For char type, the elements take the value null character ('') by default
+//* For boolean type, the elements take the value false by default
 
 /*_______________________________*/

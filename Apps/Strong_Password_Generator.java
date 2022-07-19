@@ -13,6 +13,25 @@ public class Strong_Password_Generator {
     int[] s3 = new int[]{1,2,3,4,5,6,7,8,9,0};
     char[] s4 = new char[]{'~','!','@','#','$','%','^','&','*','(',')','-','_','+','=','[',']','{','}',':',';','"','<','>',',','.','/','?','|'};
 
+    System.out.print("How many characters do you want for the password? ");
+    int characters_number = input.nextInt();
+
+    while (true){
+      try {
+        if (characters_number < 6){ 
+          System.out.println("You need at least 6 characters!!!");
+          System.out.print("Please enter the number again: ");
+          characters_number= input.nextInt();
+        } else {
+          break;
+        }
+      } catch (Exception e) {
+        //TODO: handle exception
+        System.out.println("Please enter numbers only!!!!");
+        System.out.print("How many characters do you want for the password? ");
+        characters_number = input.nextInt();
+      }
+    }
 
   }
   

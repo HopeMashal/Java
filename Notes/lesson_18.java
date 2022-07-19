@@ -14,15 +14,32 @@ public class lesson_18 {
     System.out.print("Please enter the number of students: ");
     int row=input.nextInt();
 
-    double[][] marks = new double[row][col];
+    String[][] marks = new String[row+1][col+1];
+    marks[0][0]="Name";
+    
+    for(int j=1;j<marks[0].length;j++){
+      System.out.print("Please enter the course no. "+(j)+" name : ");
+      marks[0][j]=input.next();
+    }
 
-    for(int i=0;i<marks.length;i++){
-      for(int j=0;j<marks[0].length;j++){
-        System.out.print("Please enter the mark of course no. "+(j+1)+" for student no. "+(i+1)+" : ");
-        marks[i][j]=input.nextInt();
+    for(int i=1;i<marks.length;i++){
+      System.out.print("Please enter the student no. "+(i)+" name : ");
+      marks[i][0]=input.next();
+    }
+
+    for(int i=1;i<marks.length;i++){
+      for(int j=1;j<marks[0].length;j++){
+        System.out.print("Please enter the mark of course no. "+(j)+" for student no. "+(i)+" : ");
+        marks[i][j]=input.next();
       }
     }
 
+    for(int i=0;i<marks.length;i++){
+      for(int j=0;j<marks[0].length;j++){
+        System.out.print(marks[i][j] + "     ");
+      }
+      System.out.println();
+    }
 
   }
   
@@ -48,5 +65,16 @@ public class lesson_18 {
 //? dataType[][] arrayName = new dataType[#rows][#columns];
 //? arrayName.length = #rows;
 //? arrayName[0].length = #columns;
+
+/*_______________________________*/
+
+//! Initialization:
+
+//? int[][] array = {{2,1,4},{3,5,4},{4,3,2}}
+
+/* Array =[2 1 4
+           3 5 4
+           4 3 2]
+ */
 
 /*_______________________________*/

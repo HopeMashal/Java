@@ -38,11 +38,10 @@ public class Strong_Password_Generator {
     Collections.shuffle(s3);
     Collections.shuffle(s4);
 
-    int part_30 = Math.round(characters_number * (30/100));
-    int part_20 = Math.round(characters_number * (20/100));
+    double part_30 = Math.round((float)characters_number * (30.0/100));
+    double part_20 = Math.round((float)characters_number * (20.0/100));
 
-    String[] password = new String[characters_number];
-    ArrayList<String> passList = new ArrayList<String>(Arrays.asList(password)); 
+    ArrayList<String> passList = new ArrayList<String>();
 
     for (int i=0;i<part_30;i++){
       passList.add(s1.get(i));
@@ -52,15 +51,16 @@ public class Strong_Password_Generator {
       passList.add(s3.get(i));
       passList.add(s4.get(i));
     }
+    if(characters_number%2==1){
+      int x = (int) Math.round(Math.random()*s4.size());
+      passList.add(s4.get(x));
+    }
 
-    //List<String> pass = Arrays.asList(password);
     Collections.shuffle(passList);
 
-    //password = "".join(passList[0:]);
     String str = passList.toString().replaceAll(", ", ""); 
     str = str.substring(1, str.length() - 1);
 
-    System.out.println("Your password is:  "+passList);
     System.out.println("Your password is:  "+str);
 
   }

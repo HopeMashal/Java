@@ -52,8 +52,15 @@ public class Strong_Password_Generator {
       passList.add(s4.get(i));
     }
     if(characters_number%2==1){
-      int x = (int) Math.round(Math.random()*s4.size());
-      passList.add(s4.get(x));
+      int y =(int) Math.round(Math.random()*4);
+      System.out.println(y);
+      List<String> z = Arrays.asList();
+      if (y ==0 || y==1) z=s1;
+      else if (y ==2)  z=s2;
+      else if (y ==3)  z=s3;
+      else if (y ==4)  z=s4;
+      int x = (int) Math.round(Math.random()*z.size());
+      passList.add(z.get(x));
     }
 
     Collections.shuffle(passList);

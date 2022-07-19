@@ -26,7 +26,7 @@ public class lesson_19 {
   public static void fillArray(int[][] list){
     for(int i =0;i<list.length;i++){
       for(int j=0;j<list[0].length;j++){
-        System.out.print("Enter the element in row no. "+i+" and column no. "+j+" : ");
+        System.out.print("Enter data for row no. "+i+" and column no. "+j+" : ");
         list[i][j]=input.nextInt();
       }
     }
@@ -54,3 +54,5 @@ public class lesson_19 {
     if (!findValue) System.out.println("The item "+target+" isn't found"); 
   }
 }
+
+/*_______________________________*/

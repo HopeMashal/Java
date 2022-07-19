@@ -14,10 +14,11 @@ public class lesson_18 {
     System.out.print("Please enter the number of students: ");
     int row=input.nextInt();
 
-    String[][] marks = new String[row+1][col+1];
+    String[][] marks = new String[row+1][col+2];
     marks[0][0]="Name";
+    marks[0][col+1]="Average";
     
-    for(int j=1;j<marks[0].length;j++){
+    for(int j=1;j<marks[0].length-1;j++){
       System.out.print("Please enter the course no. "+(j)+" name : ");
       marks[0][j]=input.next();
     }
@@ -28,10 +29,18 @@ public class lesson_18 {
     }
 
     for(int i=1;i<marks.length;i++){
-      for(int j=1;j<marks[0].length;j++){
+      for(int j=1;j<marks[0].length-1;j++){
         System.out.print("Please enter the mark of course no. "+(j)+" for student no. "+(i)+" : ");
         marks[i][j]=input.next();
       }
+    }
+
+    for(int i=1;i<marks.length;i++){
+      float sum=0;
+      for(int j=1;j<marks[0].length-1;j++){
+        sum+= Float.parseFloat(marks[i][j]);
+      }
+      marks[i][col+1]=String.valueOf(sum/col);
     }
 
     for(int i=0;i<marks.length;i++){

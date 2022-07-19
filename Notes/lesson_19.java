@@ -16,7 +16,11 @@ public class lesson_19 {
 
     int[][] matrix = new int[row][col];
     fillArray(matrix);
+    System.out.println("Array Filled! ");
+    System.out.println("Array will be printed! ");
     printArray(matrix);
+    System.out.println("Array will be summed! ");
+    System.out.println("The sum of the array elements is equal "+sumArray(matrix));
     System.out.print("Enter the number to search for: ");
     int searchId=input.nextInt();
     search(matrix, searchId);
@@ -26,7 +30,7 @@ public class lesson_19 {
   public static void fillArray(int[][] list){
     for(int i =0;i<list.length;i++){
       for(int j=0;j<list[0].length;j++){
-        System.out.print("Enter data for row no. "+i+" and column no. "+j+" : ");
+        System.out.print("Enter data for row no. "+(i+1)+" and column no. "+(j+1)+" : ");
         list[i][j]=input.nextInt();
       }
     }
@@ -41,12 +45,22 @@ public class lesson_19 {
     }
   }
 
+  public static int sumArray(int[][] list){
+    int sum=0;
+    for(int i =0;i<list.length;i++){
+      for(int j=0;j<list[0].length;j++){
+        sum +=list[i][j];
+      }
+    }
+    return sum;
+  }
+
   public static void search (int[][] list, int target){
     boolean findValue = false;
     for(int i =0;i<list.length;i++){
       for(int j=0;j<list[0].length;j++){
         if(list[i][j]==target){ 
-          System.out.println("The index of "+target+" is in row no. "+i+" and column no. "+j);
+          System.out.println("The index of "+target+" is in row no. "+(i+1)+" and column no. "+(j+1));
           findValue = true; 
         }
       }

@@ -53,7 +53,6 @@ public class Strong_Password_Generator {
     }
     if(characters_number%2==1){
       int y =(int) Math.round(Math.random()*4);
-      System.out.println(y);
       List<String> z = Arrays.asList();
       if (y ==0 || y==1) z=s1;
       else if (y ==2)  z=s2;

@@ -60,11 +60,12 @@ public class Strong_Password_Generator {
       else if (y ==2)  z=s2;
       else if (y ==3)  z=s3;
       else if (y ==4)  z=s4;
-      int x = (int) Math.round(Math.random()*z.size());
+      int x = (int) Math.round(Math.random()*(z.size() - 1));
       passList.add(z.get(x));
     }
     if(passList.size()>characters_number){
-      passList.remove(passList.size()-1);
+      int index = (int) Math.round(Math.random()*(passList.size() - 1));
+      passList.remove(index);
     }
 
     Collections.shuffle(passList);

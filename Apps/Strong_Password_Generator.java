@@ -14,14 +14,16 @@ public class Strong_Password_Generator {
     List<String> s4 = Arrays.asList("~","!","@","#","$","%","^","&","*","(",")","-","_","+","=","[","]","{","}",":",";","'","<",">",",",".","/","?","|");
 
     System.out.print("How many characters do you want for the password? ");
-    int characters_number = input.nextInt();
+    String characters_num = input.next();
+    int characters_number;
 
     while (true){
       try {
+        characters_number = Integer.parseInt(characters_num);
         if (characters_number < 6){ 
           System.out.println("You need at least 6 characters!!!");
           System.out.print("Please enter the number again: ");
-          characters_number= input.nextInt();
+          characters_num= input.next();
         } else {
           break;
         }
@@ -29,7 +31,7 @@ public class Strong_Password_Generator {
         //TODO: handle exception
         System.out.println("Please enter numbers only!!!!");
         System.out.print("How many characters do you want for the password? ");
-        characters_number = input.nextInt();
+        characters_num = input.next();
       }
     }
 
@@ -51,7 +53,7 @@ public class Strong_Password_Generator {
       passList.add(s3.get(i));
       passList.add(s4.get(i));
     }
-    if(characters_number%2==1){
+    if(characters_number%2==1 && passList.size()<characters_number){
       int y =(int) Math.round(Math.random()*4);
       List<String> z = Arrays.asList();
       if (y ==0 || y==1) z=s1;
@@ -61,6 +63,9 @@ public class Strong_Password_Generator {
       int x = (int) Math.round(Math.random()*z.size());
       passList.add(z.get(x));
     }
+    if(passList.size()>characters_number){
+      passList.remove(passList.size()-1);
+    }
 
     Collections.shuffle(passList);
 
@@ -68,6 +73,8 @@ public class Strong_Password_Generator {
     str = str.substring(1, str.length() - 1);
 
     System.out.println("Your password is:  "+str);
+
+    input.close();
 
   }
   

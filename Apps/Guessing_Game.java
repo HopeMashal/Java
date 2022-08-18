@@ -30,6 +30,8 @@ public class Guessing_Game {
       System.out.println("YOU WIN!!!");
     }
 
+    input.close();
+
   }
 }
 

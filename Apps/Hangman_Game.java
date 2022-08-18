@@ -61,6 +61,9 @@ public class Hangman_Game {
       System.out.println("YOU WIN!!!");
       System.out.println("The programming language is: "+word_select);
     }
+
+    input.close();
+    
   }
   
 }

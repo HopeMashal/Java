@@ -10,8 +10,8 @@ public class GuessingGame {
 
     int guess,rand;
     rand = (int)(Math.random()*100);
-    boolean stillplaying = true;
-    while (stillplaying){
+    boolean stillPlaying = true;
+    while (stillPlaying){
       System.out.print("Guess a number between 0 to 100: ");
       guess = input.nextInt();
       if (guess > rand){
@@ -20,9 +20,11 @@ public class GuessingGame {
         System.out.println("Guess too small!!");
       } else {
         System.out.println("Great!!!!!");System.out.println("YOU WIN :)");
-        stillplaying =false;
+        stillPlaying =false;
       }
     }
+
+    input.close();
 
   }
 }

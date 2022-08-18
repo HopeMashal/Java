@@ -14,6 +14,8 @@ public class Translator {
     String words = input.nextLine();
     System.out.println(translate(words));
 
+    input.close();
+
   }
   public static String translate(String str){
     String translation = "";

@@ -48,5 +48,7 @@ public class calculator {
         System.out.println("Incorrect operator, please enter (1 -> + , 2 -> - , 3 -> / , 4 -> * , 5 -> % , 6 -> ^)");
     }
 
+    input.close();
+
   }
 }

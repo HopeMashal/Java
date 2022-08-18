@@ -32,6 +32,8 @@ public class easy_calculator {
       System.out.println("PLEASE ENTER (+,-,*,/,%,^) !!!");
     }
 
+    input.close();
+
   }
   
 }

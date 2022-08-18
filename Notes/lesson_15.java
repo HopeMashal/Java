@@ -15,6 +15,8 @@ public class lesson_15 {
     System.out.println(larger(a, b, c)); //* The output is 30
     System.out.println(larger(x, y)); //* The output is g
 
+    input.close();
+    
   }
 
   public static int larger(int n1,int n2){

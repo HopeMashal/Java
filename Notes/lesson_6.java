@@ -79,6 +79,8 @@ public class lesson_6 {
         System.out.printf("%c is normal character!!", myChar);
     }
 
+    input.close();
+
   }
 }
 

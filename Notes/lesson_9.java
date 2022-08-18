@@ -49,6 +49,8 @@ public class lesson_9 {
       }
     } while(option !=0);
 
+    input.close();
+
   }
   
 }

@@ -47,6 +47,8 @@ public class lesson_7 {
       System.out.println("EXIT!!");
     }
 
+    input.close();
+
   }
 }
 

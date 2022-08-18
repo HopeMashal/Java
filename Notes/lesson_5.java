@@ -82,6 +82,8 @@ public class lesson_5 {
       System.out.println("Invalid mark, enter number between 0 and 100");
     }
 
+    input.close();
+
   }
   
 }

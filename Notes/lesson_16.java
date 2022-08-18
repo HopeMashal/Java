@@ -43,7 +43,8 @@ public class lesson_16 {
     System.out.println("The sum of "+noEmp+" numbers is "+sumPos);
     System.out.println("The average of "+noEmp+" numbers is "+(sumPos/count));
 
-
+    input.close();
+    
   }
   
 }

@@ -34,6 +34,9 @@ public class lesson_3 {
     salary = input.nextFloat();
     netSalary = salary - (salary * 0.17f);
     System.out.printf("Your name is %s %s, and your net salary is %.2f",firstName,lastName,netSalary);
+
+    input.close();
+    
   }
   
 }

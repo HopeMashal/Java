@@ -57,6 +57,8 @@ public class lesson_10 {
         *****
      */
 
+    input.close();
+    
   }
 }
 

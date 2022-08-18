@@ -32,7 +32,8 @@ public class lesson_13 {
      int total = sum(x, y);
      System.out.println("The Sum of "+x+" & "+y+" is equal "+total);
 
-
+     input.close();
+     
   }
   public static void drawLine(char ch, int length){
     for(int i=0;i<length;i++){

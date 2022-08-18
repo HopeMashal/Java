@@ -29,6 +29,8 @@ public class lesson_14 {
     display1(); //* The output is The global variable is 100
     System.out.println(lesson_14.globalVar); //* The output is 100 --> (class_name.global_variable)
 
+    input.close();
+
   }
 
   public static int sum(int n1,int n2, int n3){

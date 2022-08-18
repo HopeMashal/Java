@@ -12,6 +12,8 @@ public class lesson_12 {
     double result = Math.sqrt(a);
     System.out.println("The square root of "+a+" is equal "+result);
 
+    input.close();
+    
   }
   
 }

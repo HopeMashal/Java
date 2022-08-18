@@ -34,6 +34,8 @@ public class lesson_11 {
     }
     System.out.println("Sum = "+sum1);
 
+    input.close();
+
   }
 }
 

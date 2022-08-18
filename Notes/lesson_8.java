@@ -23,6 +23,8 @@ public class lesson_8 {
     }
     System.out.printf("Sum of input numbers is %f",sum);
 
+    input.close();
+
   }
 }
 

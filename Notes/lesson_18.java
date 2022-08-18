@@ -50,6 +50,8 @@ public class lesson_18 {
       System.out.println();
     }
 
+    input.close();
+    
   }
   
 }
